@@ -1,0 +1,12 @@
+print("Today's date?")
+data = input()
+print('Breakfast calories??')
+caloria_1 = int(input())
+print('Lunch calories?')
+caloria_2 = int(input())
+print('dinner calories?')
+caloria_3 = int(input())
+print('snack calories?')
+caloria_4 = int(input())
+total_caloria = caloria_1 + caloria_2 + caloria_3 + caloria_4
+print('Caloria content for {}: {}'.format(data, total_caloria))
